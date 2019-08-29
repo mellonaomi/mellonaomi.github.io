@@ -1,0 +1,39 @@
+/*
+PINK: FFC0CB
+Crimson: #DC143C
+CINZA CLARO:  #808080
+CINZA ESCURO: #1C1C1C
+
+*/
+
+body{
+    background-color: #1C1C1C;
+}
+
+p.texto{
+    background-color: blueviolet;
+    margin-right: 30%;
+    text-align: justify;
+}
+footer {
+    background-color: #1C1C1C;
+    text-align: center;
+    position: fixed;
+    color: #808080;
+    width: 100%;
+    bottom: 0;
+    left:0;
+
+}
+#div-A{
+    /*background: #1C1C1C;*/
+    background: #FFC0CB;
+}
+#div-B{
+    background: #DCDCDC;
+}
+hr{
+    background-color: #FFC0CB;
+    margin-right: 30%;
+
+}
