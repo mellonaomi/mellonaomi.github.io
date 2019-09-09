@@ -1,0 +1,75 @@
+/*
+BUGS:
+    HEIGHT NÃO RESPONSIVO - O PAI DEVE SE ADAPATAR AO FINAL
+    GETCV NÃO RESPONSIVO
+*/
+
+html, body { height: 100%;}
+
+body{
+    background-color: #1C1C1C;
+}
+title, h5{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+p.paragraph{
+    margin-right: 30%;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    font-family: 'Dancing Script', cursive;
+    background-color: #1C1C1C;
+    text-align: center;
+    position: fixed;
+    color:#808080;
+    width: 100%;
+    bottom: 0;
+    left:0;
+}
+
+#firstDiv, #thirdDiv{
+    background: #1C1C1C;
+    height: 100vh;
+   /* position: absolute;bottom : 0px;*/
+}
+
+#secondDiv{
+    background: #DCDCDC;
+    height: 100vh;
+}
+
+hr{
+    background-color: #FFC0CB;
+    margin: 0 5% 5% 5%;
+}
+
+#getcv{
+    padding: 8% 0 0 30%;
+
+}
+
+#imgDiv{
+    padding-top: 45%;
+}
+
+#imgPerfil{ 
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+
+.imgIcons{
+    margin: 3% 0 0 5%; 
+    width: 24px;
+    height: 24px;
+}
+/*
+PINK: FFC0CB
+Crimson: #DC143C
+CINZA CLARO:  #808080
+CINZA ESCURO: #1C1C1C
+
+*/
