@@ -16,22 +16,12 @@ title, h5{
 
 p.paragraph{
     margin: auto;
+    padding-top: 3%;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
 }
 
-footer{
-    font-family: 'Dancing Script', cursive;
-    background-color: #1C1C1C;
-    text-align: center;
-    position: fixed;
-    color:#808080;
-    width: 100%;
-    bottom: 0;
-    left:0;
-}
-
-#firstDiv, #thirdDiv{
+#firstDiv{
     background: #1C1C1C;
     height: 100vh;
    /* position: absolute;bottom : 0px;*/
@@ -39,7 +29,7 @@ footer{
 
 #secondDiv{
     background: #DCDCDC;
-    height: 100vh;
+    /*height: 100%;*/
 }
 
 hr{
@@ -53,12 +43,13 @@ hr{
 }
 
 #imgDiv{
-    padding-top: 45%;
+    padding-top: 25%;
 }
 
-#location{
+#status{
     color: #808080;
     margin: auto;
+    margin-top: 5%;
 }
 
 #imgPerfil{ 
@@ -68,10 +59,15 @@ hr{
     height: 180px;
 }
 
+#divIcons{
+    text-align: center;
+    margin-top: 8%; 
+}
+
 .imgIcons{
-    margin: 3% 0 0 5%; 
-    width: 24px;
-    height: 24px;
+    margin: auto;
+    width: 20px;
+    height: 20px;
 }
 /*
 PINK: FFC0CB
