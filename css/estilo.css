@@ -15,8 +15,8 @@ title, h5{
 }
 
 p.paragraph{
-    margin-right: 30%;
-    text-align: right;
+    margin: auto;
+    text-align: justify;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -48,17 +48,24 @@ hr{
 }
 
 #getcv{
-    padding: 8% 0 0 30%;
-
+   /* padding:  0 0 30%;*/
+   padding: 90% 0 0 30%;
 }
 
 #imgDiv{
     padding-top: 45%;
 }
 
+#location{
+    color: #808080;
+    margin: auto;
+}
+
 #imgPerfil{ 
     border-radius: 50%;
     margin-bottom: 5%;
+    width: 168px;
+    height: 180px;
 }
 
 .imgIcons{
@@ -68,7 +75,7 @@ hr{
 }
 /*
 PINK: FFC0CB
-Crimson: #DC143C
+CRIMSON: #DC143C
 CINZA CLARO:  #808080
 CINZA ESCURO: #1C1C1C
 
