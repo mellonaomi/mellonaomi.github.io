@@ -16,7 +16,6 @@ title, h5{
 
 p.paragraph{
     margin: auto;
-    padding-top: 3%;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
 }
@@ -37,42 +36,80 @@ hr{
     margin: 0 5% 5% 5%;
 }
 
-#getcv{
-   /* padding:  0 0 30%;*/
-   padding: 90% 0 0 30%;
+h6{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#status, #idade{
+    color: #808080;
+    margin: auto;
+    text-align: center;
+}
+
+#skils{
+  margin: auto;
+  text-align: center;
+  border-collapse: separate;
+
+
 }
 
 #imgDiv{
-    padding-top: 25%;
+    padding-top: 33%;
 }
 
-#status{
-    color: #808080;
-    margin: auto;
-    margin-top: 5%;
-}
-
-#imgPerfil{ 
+#imgPerfil{
     border-radius: 50%;
     margin-bottom: 5%;
     width: 168px;
     height: 180px;
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0));
 }
 
 #divIcons{
+    padding-right: 10%;
     text-align: center;
-    margin-top: 8%; 
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 .imgIcons{
-    margin: auto;
     width: 20px;
     height: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
 }
+
+.imgIcons:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+#statusIcon{
+  width: 20px;
+  height: 20px;
+}
+
+
+
 /*
 PINK: FFC0CB
+INDIANRED: #CD5C5C
 CRIMSON: #DC143C
 CINZA CLARO:  #808080
 CINZA ESCURO: #1C1C1C
+
+*/
+/*
+a:link, a:visited, a:active {
+	text-decoration: none;
+	}
+a:hover {text-decoration: underline;  
+	color:#000; 
+	font-size:150%; 
+	}
+
+EFEITOS LINK
 
 */
