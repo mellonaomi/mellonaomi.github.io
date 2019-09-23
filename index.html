@@ -14,17 +14,19 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
         <!--RODAPÉ-->
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
-
         <!--CSS-->
         <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <!--ÍCONE-->
+        <link rel = "sortcut icon" type = "image/png" href = "img/letter-n.png">
         <title>Naomi Mello</title>
     </head>
     <body>
         <div class="container-fluid h-100">
-            <div class="row">
-                 <div class="col-xs-12">
-                        <!--É necessário envolver as colunas em uma linha-->
-                    <div class="row" >  
+           <!-- <div class="col-xs-12 h-100 bg-light"></div> -->
+           <!--É necessário envolver as colunas em uma linha-->
+            <div class="row" >
+                <div class="col-xs-12">
+                    <div class="row">
                         <div id="firstDiv" class="col-md-4 col-sm-12">
                             <!--FOTO-->
                             <div class = "text-center" id = "imgDiv" >
@@ -32,42 +34,77 @@
                             </div>
                             <!--FIM TAGS FOTO-->
                             <!-- ÍCONES REDESOCIAL-->
+                            <p class="pb-3" id = "idade">23 anos</p>
                                 <table id = "status">
-                                        <tr>
-                                            <td>
-                                                <img src = "img/cap.svg" alt = "Localização" class = "imgIcons">
-                                            </td>
-                                            <td>
-                                                Estudante de Ciência da Computação
-                                            </td>
-                                        </tr>
+                                    <tr>
+                                        <td>
+                                            <img src = "img/cap.png" alt = "Localização" id = "statusIcon">
+                                        </td>
+                                        <td>
+                                            8/10 Ciência da Computação
+                                            <br>
+                                            UFFS
+                                        </td>
+                                    </tr>
                                 </table>
                                 <div id="divIcons" >
                                     <a href="#" style="padding-right: 10%"><img src = "img/facebook.png" alt = "Facebook" class = "imgIcons"/></a>
-                                    <a href="#" style="padding-right: 10%"><img src = "img/linkedin.png" alt = "Linkedin" class = "imgIcons"/></a>                           
-                                    <a href="#" style="padding-right: 10%"><img src = "img/github.png" alt = "Github" class = "imgIcons"/></a> 
+                                    <a href="#" style="padding-right: 10%"><img src = "img/linkedin.png" alt = "Linkedin" class = "imgIcons"/></a>
+                                    <a href="#" style="padding-right: 10%"><img src = "img/github.png" alt = "Github" class = "imgIcons"/></a>
                                     <a href="#" style="padding-right: 10%"><img src = "img/email.png" alt = "Email" class = "imgIcons"/></a>
                                 </div>
                             <!--FIM ÍCONES-->
                         </div>
-                    <div id="secondDiv" class="col-md-8 col-sm-12 text-center">
+                        <div id="secondDiv" class="col-md-8 col-sm-12 text-center">
                             <h2 class="pt-5">Naomi Fernanda de Mello</h2>
                             <hr>
                             <!--DESCRIÇÃO SOBRE-->
                             <h5>Sobre</h5>
-                            <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                            Temporibus porro minus reprehenderit sapiente voluptas esse inventore voluptatibus excepturi, 
+                            <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Temporibus porro minus reprehenderit sapiente voluptas esse inventore voluptatibus excepturi,
                             magnam, mollitia deleniti corrupti, consequuntur repellendus quaerat molestias optio!Perspiciatis, dicta vitae.</p>
                             <!--DESCRIÇÃO HABILIDADES-->
                             <br>
                             <h5>Habilidades</h5>
-                            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Quaerat ducimus at numquam, quibusdam natus et libero non odio sit sapiente recusandae quam, 
-                            itaque officiis expedita, nam repellendus deleniti placeat perspiciatis!</p>
-                            <br>
+                                <div class="row" id="habilidades">
+                                    <div class = "inline" id="linguagens">
+                                        <img src = "img/monitor.png" alt = "Linguagens" id = "statusIcon"><h6>Linguagens</h6>
+                                        <ul>
+                                        <li>C++</li>
+                                        <li>HTML</li>
+                                        <li>SQL</li>
+                                        <li><font color = #CD5C5C>PHP</font></li>
+                                        <li>Python</li>
+                                        <li><font color = #CD5C5C>JavaScript</font></li>
+                                        </ul>
+                                    </div>
+                                    <div class="linha-vertical"></div>
+                                    <div class="inline" id="ferramentas">
+                                        <img src = "img/tools.png" alt = "Linguagens" id = "statusIcon"><h6>Ferramentas</h6>
+                                        <ul>
+                                            <li>Atom</li>
+                                            <li>Git/Github</li>
+                                            <li>PostgreSQL</li>
+                                            <li>Anaconda</li>
+                                            <li>Jupyter Notebook</li>
+                                            <li><font color = #CD5C5C>Visual Studio Code</font></li>
+                                        </ul>
+                                    </div>
+                                    <div class="linha-vertical"></div>
+                                    <div class="inline">
+                                        <img src = "img/language.png" alt = "Linguagens" id = "statusIcon"><h6>Idiomas</h6>
+                                        <ul>
+                                            <li>Inglês - intermediário</li>
+                                            <li>Espanhol - básico</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <span>
+                                    <a href="cv/NaomiMelloCV_en.pdf" class = "btn btn-danger botao" target = "__blank"><font color = #CD5C5C>meu currículo!</font></a>
+                                </span>
                         </div>
-                     </div>
-                </div>
+                    </div>
+                </div>                
             </div>
         </div>
         <!--SCRIPT NOVA GUIA-->
