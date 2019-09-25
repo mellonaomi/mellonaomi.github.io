@@ -7,21 +7,40 @@ BUGS:
 html, body { height: 100%;}
 
 body{
-    background-color: #1C1C1C;
+    background-image: url("../img/wpp.jpg");
 }
-title, h5{
+
+title, h4, h6{
     font-family: 'Open Sans', sans-serif;
 
 }
 
 p.paragraph{
-    margin: auto;
-    text-align: justify;
+    margin: 2% 10%;
+    text-align: center;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
 }
 
+p.paragraphCard{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cardBody{
+    background-color: #D3D3D3;
+    height: 80%;
+    width: 85%;
+    opacity:0.8;
+}
+
+.cardBody:hover{
+    opacity:1;
+}
+
 #firstDiv{
-    background: #1C1C1C;
+    background-image: url("/img/birds.jpeg");
     height: 100vh;
    /* position: absolute;bottom : 0px;*/
 }
@@ -33,7 +52,7 @@ p.paragraph{
 
 hr{
     background-color: #FFC0CB;
-    margin: 0 5% 5% 5%;
+    margin: 0 5% 3% 5%;
 }
 
 #rotating{ 
@@ -42,7 +61,7 @@ hr{
 }
 
 h6{
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -86,9 +105,15 @@ h6{
 }
 
 .imgIcons:hover{
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
+
+.cardIcons{
+    width: 36px;
+    height: 36px; 
+}
+
 
 #statusIcon{
   width: 20px;
@@ -97,7 +122,7 @@ h6{
 
 .linha-vertical {
     height: auto;/*Altura da linha*/
-    border-left: 1px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    border-left: 1px solid;/* Adiciona borda esquerda na div como se fosse uma linha.*/
     color: #CD5C5C;
     margin: 0 5%;
 }
@@ -107,26 +132,19 @@ h6{
 }
 
 .botao{
-    background-color: #1C1C1C;
+    color: #D3D3D3;    
 }
 
 /*
-PINK: FFC0CB
+PINK: #FFC0CB
 INDIANRED: #CD5C5C
 CRIMSON: #DC143C
-CINZA CLARO:  #808080
+CINZA:  #808080
+CINZA CLARO: #D3D3D3
 CINZA ESCURO: #1C1C1C
 
-*/
-/*
-a:link, a:visited, a:active {
-	text-decoration: none;
-	}
-a:hover {text-decoration: underline;  
-	color:#000; 
-	font-size:150%; 
-	}
-
-EFEITOS LINK
-
+fontes:
+http://www.erikasarti.com/html/tabela-cores/
+https://superdevresources.com/html-resume-templates/
+https://www.codeply.com/go/dI6CknFxts/bootstrap-4-timeline
 */
