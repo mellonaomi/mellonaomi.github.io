@@ -1,7 +1,7 @@
 html, body { height: 100%;}
 
 body{
-    background-image: url("../img/formas.jpg");
+    background-image: url("../img/paint.jpg");
 }
 
 title, h4, h6{
@@ -12,9 +12,8 @@ title, h4, h6{
 
 #firstDiv{
     height: 100vh;
-    position: relative;
-    top: 0%;
-    left: 0;
+    position: fixed;
+
 }
 
 #status, #idade{
@@ -23,7 +22,7 @@ title, h4, h6{
 }
 
 #imgDiv{
-    padding-top: 33%;
+    padding-top: 15%;
 }
 
 #imgPerfil{
@@ -35,10 +34,8 @@ title, h4, h6{
 }
 
 #divIcons{
-    padding-right: 10%;
     text-align: center;
-    margin-top: 10%;
-    margin-left: 15%;
+    margin-top: 50%;
 
 }
 
